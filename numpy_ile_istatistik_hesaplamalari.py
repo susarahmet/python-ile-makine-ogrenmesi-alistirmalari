@@ -10,7 +10,7 @@ print("aritmetik ortalama", np.mean(yas_verileri))
 # eğer veri kümesi çift sayıdan oluşursa ortadaki iki sayının ortalaması alınır.
 print("medyan:", np.median(yas_verileri))
 
-# yüzdelik dilimler 
+# yüzdelik dilimler (percentile)
 print("Yüzde 50'lik dilim: (medyan):", np.percentile(yas_verileri, 50))
 print("Yüzde 25'lik dilim:", np.percentile(yas_verileri, 25))
 print("Yüzde 75'lik dilim:", np.percentile(yas_verileri, 75))
