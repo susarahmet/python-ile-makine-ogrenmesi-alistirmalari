@@ -1,10 +1,16 @@
 import pandas as pd
 df = pd.read_csv('titanic.csv')
 
-#dizi = df[['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age']].values
-
-
 import matplotlib.pyplot as plt
 
-plt.scatter(df['Age'], df['Fare'], c=df[Survived])
+# Veri çizimi için scatter:
+plt.scatter(df['Age'], df['Sex'], c=df['Survived'])
+plt.show()
+
+plt.plot([0, 100], [0, 50])
+plt.show()
+
+plt.scatter(df['PassengerId'], df['Age'])
+plt.plot([0, 800], [20, 60])
+plt.show()
 
