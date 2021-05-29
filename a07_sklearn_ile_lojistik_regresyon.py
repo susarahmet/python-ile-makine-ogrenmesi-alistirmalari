@@ -18,6 +18,5 @@ y_tahmin = lr.predict(X) # X'lerden y tahmin değerleri
 
 # Doğru tahmin edilen örneklerin toplam örnek sayısına bölümü: 
 print("Doğruluk (Accuracy) :", (y == y_tahmin).sum() / y.shape[0]) 
-
-# Doğruluk için score metotu ile kullanılabilir. 
+# Doğruluk için score metotu kullanılabilir. 
 print("Doğruluk (Accuracy) :", lr.score(X,y))
